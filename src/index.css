@@ -1,0 +1,31 @@
+/* Este archivo contiene el estilo global de nuestra aplicación. */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* Importamos la fuente Roboto de Google Fonts. */
+
+* {
+  margin: 0;
+  /* Eliminamos el margen de todos los elementos. */
+  padding: 0;
+  /* Eliminamos el padding de todos los elementos. */
+  box-sizing: border-box;
+  /* Establecemos el box-sizing a border-box para que el tamaño de los elementos incluya el padding y el borde. */
+}
+
+#root {
+  width: 100%;
+  /* Establecemos el ancho del elemento con id "root" a 100%. */
+  min-height: 100vh;
+  /* Establecemos la altura mínima a 100% de la altura de la ventana. */
+  display: flex;
+  /* Establecemos el display a flex para poder alinear los elementos dentro de él. */
+  justify-content: center;
+  /* Alineamos los elementos dentro del elemento con id "root" al centro. */
+  padding: 50px 0;
+  /* Añadimos un padding de 50px arriba y abajo. */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* Establecemos la fuente Roboto como la fuente principal para todo el documento. */
+}
